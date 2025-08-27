@@ -1,0 +1,20 @@
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    backgroudcolor:lightgray
+}
+
+#highlight {
+    color:pink;
+}
+table,
+th,
+td {
+    bortder: 1px solid black;
+    border-collapse: collapse;
+    padding: lem;
+    margin: lem;
+}
