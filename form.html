@@ -1,25 +1,49 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-     <head> 
+    <head>
         <title>HTML FORM DEMO</title>
+        <style>
+            label {
+                padding:10px;
+                border: 1px dashed black;
+            
+                
+            }
+            input {
+                margin: 5px;
+            }
+            @media (max-width:
+            380px) {
+                body{
+                    background-color
+                    : lightblue;
+                
+                }
+            }
+                    
+        </style>
     </head>
     <body>
         <form>
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email"><br><br>
-                <input type="submit" value="Submit">
-            </fieldset>
-            <select id = "Description" name="Occupation">
+                <input type="text" id="name"
+                name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"
+                name="email"><br><br>
+                <select id = "designation" name =
+                "Occupation">
                 <option
-                value="Government">Goverment Services</option>
-                <option value ="Private">Private Sector</option>
-
+                value="Governament">Governament
+                Service</option>
+                <option value="Private">Private
+                    Sectors</option>
             </select>
             <br>
+                <input type="submit" value="Submit">
+            </fieldset>
         </form>
     </body>
 </html>
